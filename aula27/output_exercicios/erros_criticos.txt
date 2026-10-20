@@ -1,0 +1,2 @@
+2026-03-30 10:15:01 ERROR falha na conexao com o banco de dados
+2026-03-30 10:15:15 ERROR timeout ao requisitar recurso remoto

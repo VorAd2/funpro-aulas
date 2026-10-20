@@ -1,0 +1,15 @@
+codigo;nome;quantidade;preco
+1;teclado;15;120.50
+2;mouse;30;65.00
+3;monitor;8;850.00
+4;headset;12;210.90
+
+# leitura de produtos com delimitador customizado usando DictReader
+with open("produtos.csv", "r", encoding="utf-8") as arquivo:
+    leitor_dict = csv.DictReader(arquivo, delimiter=";")
+    print('CAMPOS', leitor_dict.fieldnames)
+    for registro in leitor_dict:
+        nome_produto = registro["nome"]
+        qtd_estoque = int(registro["quantidade"])
+        preco_unitario = float(registro["preco"])
+        print(nome_produto, "-> total em itens:", qtd_estoque)

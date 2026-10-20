@@ -1,0 +1,3 @@
+primeira linha de dados
+segunda linha de dados
+terceira linha de dados em modo append

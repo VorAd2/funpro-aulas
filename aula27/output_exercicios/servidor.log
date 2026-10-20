@@ -1,0 +1,5 @@
+2026-03-30 10:14:20 INFO conexao estabelecida pelo cliente 42
+2026-03-30 10:14:22 WARNING tempo de resposta acima do esperado
+2026-03-30 10:15:01 ERROR falha na conexao com o banco de dados
+2026-03-30 10:15:10 INFO tentativa de reconexao automatica
+2026-03-30 10:15:15 ERROR timeout ao requisitar recurso remoto
